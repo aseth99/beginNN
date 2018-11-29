@@ -1,8 +1,8 @@
 # 001 0
-# 111 1
+# 011 1
 # 101 1
-# 011 0
-#easy problem above, output based on first column
+# 111 0
+#harder problem, output based on 1&2 columns, 3rd column redundant
 
 import numpy as np 
 
@@ -19,7 +19,7 @@ X = np.array([[0,0,1],
 			[1,1,1]])
 
 #output data
-y = np.array([[0,0,1,1]]).T
+y = np.array([[0,1,1,0]]).T
 
 #seed random number, 
 #keeps it predictable for testing (deterministic)
