@@ -65,7 +65,9 @@ for i in range(60000):
 
 print("output after training")
 print(l2)
-
+# print(syn1)
+# print(syn0)
+# print(np.dot(syn0,syn1))
 
 
 
