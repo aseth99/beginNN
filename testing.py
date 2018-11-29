@@ -5,6 +5,8 @@ import numpy as np
 
 #testing
 X = np.array([[3,5],[5,1],[10,2]])
+X2 = np.array([[1,2],[1,5],[10,4]])
+
 y = np.array([[.75],[.82],[.93]])
 
 NN = Neural_Network()
@@ -19,6 +21,7 @@ dJdW1, dJdW2 = NN.costFunctionPrime(X,y)
 
 print(NN.costFunctionPrime(X,y))
 print(NN.forward(X))
+print(NN.forward(X2))
 print(y)
 # print(dJdW1)
 # print(dJdW2)
