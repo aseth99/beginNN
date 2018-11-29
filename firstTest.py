@@ -3,6 +3,7 @@
 # 101 1
 # 011 0
 #easy problem above, output based on first column
+#CALLED LINEAR PATTERN --> 1 to 1 relationship between input & output
 
 import numpy as np 
 
