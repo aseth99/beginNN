@@ -1,4 +1,5 @@
 import numpy as np
+from scipy import optimize
 
 class Neural_Network(object):
     def __init__(self):        
